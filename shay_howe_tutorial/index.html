@@ -5,55 +5,65 @@
 		<title>Practice Page</title>
 		<link rel="stylesheet" href="stylesheet.css">
 	</head>
-	<body>
-	<header>
-		<h1> For the purpose of this tutorial the page will have the unofficial name: "<a href="index.html">Styles Conference</a>"</h1>
-		
-		<h3>This is a practice page to which I want to add more stuff in the future</h3>
-		
-		<nav>
-			<a href="index.html">Home</a>
-			<a href="speakers.html">Speakers</a>
-			<a href="schedule.html">Schedule</a>
-			<a href="venue">Venue</a>
-			<a href="register.html">Register</a>
-		</nav>
-		
-	</header>
 	
-	<section>
+	<body>
+<header class="container group">
+<h1 class="logo">
+<a href="index.html">Styles <br> Conference</a>
+</h1>
+<h3>August 24&ndash;26th &mdash; Chicago, IL</h3>
+<nav>
+<a href="index.html">Home</a>
+<a href="speakers.html">Speakers</a>
+<a href="schedule.html">Schedule</a>
+<a href="venue.html">Venue</a>
+<a href="register.html">Register</a>
+</nav>
+</header>
+	
+	<section class=" hero container">
 		<h2> Dedicated to the Craft of Building Websites</h2>
 		
 		<p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies.Let's see if we can meet them next year</p>
 		
-		<a href="register.html"> Register Now </a>
+		<a class="btn btn-alt" href="register.html"> Register Now </a>
+		
 	</section>
 	
-	<section>
+	<section class="grid">
+	
+	<section class="col-1-3">
 	<a href="speakers.html">
 		<h5>Speakers</h5>
 		<h3>World-Class Speakers<h3>
 	</a>	
 		<p>Joining us on this quest will be the following: "TBA"</p>
-	</section>
+	</section><!--
 	
-	<section>
+	Speakers	
+	
+--><section class="col-1-3">
 	<a href="schedule.html">
 		<h5>Schedule</h5>
-		<h3>How are we going to go about this</h3>
+		<h3>How are we going to go about this?</h3>
 	</a>
 		<p>Let's take 2h out of our daily schedule and dedicate them to the craft</p>
-	</section>
+	</section><!--
 	
-	<section>
+	Schedule
+	
+--><section class="col-1-3">
 	<a href="venue.html">
 		<h5>Venue</h5>
-		<h3>Where are we going to do it</h3>
+		<h3>Where are we going to do it?</h3>
 	</a>	
 		<p>Before we start selling out stadiums and conference rooms, let's take the show on a test run in my kitchen.</p>
-	</section>
-	
-	<footer>
+	</section><!--
+  
+  Venue
+  
+  --></section>
+	<footer class="container primary-footer group">
 		<small>&copy; ACP Practice Page</small>
 		
 		<nav>
