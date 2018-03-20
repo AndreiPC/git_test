@@ -309,12 +309,35 @@ p a {
 
 /*
   ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+	text-align: right;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+	
+}
+
+.nav li:last-child {
+	margin-right: 0;
+}
+.nav a {
+	color: #fff;
+}
+/*
+  ========================================
   Home
   ========================================
 */
 
 .hero {
-	color: white;
+	color: #fff;
 	line-height:44px;
     padding: 22px 80px 66px 80px;
 	text-align: center;
@@ -335,10 +358,18 @@ p a {
 
 /*
   ========================================
-  Navigation
+  Speakers
   ========================================
 */
 
-.nav {
-	text-align: right;
+.speaker-info {
+	border: 1px solid #dfe2e5;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding: 22px;
+	text-align: center;
+}
+
+.speakers {
+	margin-bottom: 44px;
 }
