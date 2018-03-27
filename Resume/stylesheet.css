@@ -1,0 +1,163 @@
+/* CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----------
+    Layout
+-----------*/ 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-box {
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid black;
+    
+}
+.col-2-1,
+.col-1-2 {   
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.col-1-2 {
+    width:50%;
+    background-color: #313131;
+}
+
+.col-2-1 {
+    width: 50%;
+    background-color: #fff;
+}
+
+/*---------
+    Label + Footer
+  --------- */
+
+  .label {
+      width: 100%;
+      margin: 50px 0 50px 0;
+      background-color: rgba(13, 235, 224, 0.63);
+      text-align: center;
+      line-height: 30px;
+      padding: 25px;
+  }
+
+  .main-footer {   
+    background-color:#313131;
+    color: #d1d1d1;
+  }
+
+  /* -------
+    Typhography
+    -------- */
+    body {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h1, h3, h4, h5, p {
+      margin-bottom: 22px;    
+    }
+    
+    h1 {
+      font-size: 36px;
+      line-height: 44px;
+    }
+    h2 {
+      font-size: 24px;
+      line-height: 44px;
+    }
+    h3 {
+      font-size: 21px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    
+    h5 {
+      color: rgb(45, 150, 144);
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+ /* -------
+    Image
+    -------- */
+
+    #andrei_pantea {      
+      margin: 20px 0 12px 180px;
+      height: 200px;
+      border-radius: 10%;
+    }
+
+  /* -------
+    Black-Half
+    -------- */
+
+  .first-section {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 25px 50px;    
+    text-align: right;
+  }
+
+  /* -------
+    White-Half
+  -------- */
+
+.second-section {
+  text-align: left;
+  padding: 0px 50px; 
+}
