@@ -3,48 +3,129 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-  line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-  list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-  quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 a {
@@ -52,13 +133,9 @@ a {
     color: inherit;
 }
 
-
 * {
     box-sizing: border-box;
 }
-
-
-
 
 /* ---------
 Header
@@ -67,13 +144,13 @@ Header
     margin-top: 1%;
     display: block;
 }
-.header-list {  
-   align-items: center;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 13px;
-   margin: 0;
-   padding: 20px 30px 0 0;
-   float: right;
+.header-list {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    /* padding: 20px 30px 0 0; */
+    float: right;
 }
 
 .header-list li {
@@ -81,11 +158,9 @@ Header
     padding-left: 20px;
 }
 
-
 /* ---------
 Middle Section
 --------- */
-
 
 .middle-section {
     display: inline-block;
@@ -106,7 +181,7 @@ Middle Section
     margin-left: auto;
     margin-right: auto;
     width: 35%;
-    padding:10px;
+    padding: 10px;
     margin-top: 1%;
     text-decoration: none;
     font-size: 1em;
@@ -125,7 +200,6 @@ Middle Section
 Buttons
 --------- */
 
-
 #user-menu {
     border: none;
     padding: 7px;
@@ -134,7 +208,7 @@ Buttons
     background-color: rgb(47, 122, 219);
     color: #fff;
     font-weight: bold;
-    
+
 }
 
 .button-wrapper {
@@ -142,7 +216,7 @@ Buttons
 }
 .button-wrapper button {
     border: none;
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
     color: #757575;
     font-weight: bold;
     padding: 10px;
@@ -151,4 +225,39 @@ Buttons
 
 .button-wrapper button:last-child {
     margin-left: 1%;
+}
+
+/* ---------
+Footer
+--------- */
+.main-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    /* Height of the footer */
+
+}
+
+
+.footer-list li {
+    float: right;
+    padding-right: 27px;
+}
+
+.footer-list .right-side li {
+    float: left;
+    
+}
+
+.footer-bars {
+    height: 100%;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
